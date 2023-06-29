@@ -1,0 +1,51 @@
+.image-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-top: 70px;
+  margin-left: 12px;
+}
+
+.card {
+  flex-basis: calc(25% - 10px); /* Adjust the width as needed */
+  margin-bottom: 20px;
+}
+
+.navbar-search input[type="text"] {
+  padding: 9px;
+  margin-right: 10px;
+  width: 300px;
+}
+
+.navbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #267dce;
+  padding: 10px;
+  z-index: 1;
+  
+}
+
+.navbar-logo h1 {
+  margin: 0;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: xx-large;
+}
+.navbar-search form {
+  display: flex;
+  align-items: center;
+  margin-right: 20px;;
+}
+
+.navbar-search button {
+  padding: 8px 12px;
+}
+
+.card-img-top {
+  height: 200px; /* Adjust the height value as needed */
+}
